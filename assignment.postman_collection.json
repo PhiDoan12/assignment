@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "271a0545-489e-469d-b88e-071e16109bc6",
+		"name": "assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/assignment/one",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    \"unishop/product/list\",\n    \"unishop/category/list\",\n    \"unishop/product/create\",\n    \"kyowon/user/list\",\n    \"commerce/product/create\",\n    \"kyowon/user/create\",\n    \"kyowon/banner/update\",\n    \"unishop/category/update\",\n    \"commerce/product/create\",\n    \"unishop/product/list\",\n    \"unishop/category/list\",\n    \"commerce/product/update\",\n    \"unishop/product/create\"\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/assignment/one",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assignment",
+						"one"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/assignment/two",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n[ true, false, false ],\n[ false, true, false ],\n[ false, false, false ]\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/assignment/two",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assignment",
+						"two"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
